@@ -89,6 +89,24 @@ main {
     padding: 40px 20px;
 }
 
+/* Loading State */
+.loading {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 60px 20px;
+    color: var(--text-secondary);
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
 /* Movie Grid */
 .movie-grid {
     display: grid;
