@@ -62,6 +62,12 @@ header .container {
     font-weight: 600;
     color: var(--text-primary);
     letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo svg {
+    color: var(--accent-color);
 }
 
 /* Search Styles */
