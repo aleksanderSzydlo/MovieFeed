@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Feed</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">🎬 Movie Feed</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Szukaj filmów..." class="search-input">
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="movie-grid" id="movieGrid">
+            <!-- Movie Card 1 -->
+            <div class="movie-card" data-title="Inception" data-description="Mind-bending thriller about dream manipulation">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/1a1a2e/eee?text=Inception" alt="Inception">
+                </div>
+                <div class="movie-info">
+                    <h2 class="movie-title">Inception</h2>
+                    <p class="movie-description">A skilled thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea.</p>
+                    <div class="movie-rating">
+                        <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-score">8.8/10</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card 2 -->
+            <div class="movie-card" data-title="The Shawshank Redemption" data-description="Prison drama about hope and friendship">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/2d4059/eee?text=Shawshank" alt="The Shawshank Redemption">
+                </div>
+                <div class="movie-info">
+                    <h2 class="movie-title">The Shawshank Redemption</h2>
+                    <p class="movie-description">Two imprisoned men bond over years, finding solace and eventual redemption through acts of common decency.</p>
+                    <div class="movie-rating">
+                        <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-score">9.3/10</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card 3 -->
+            <div class="movie-card" data-title="The Dark Knight" data-description="Batman faces his greatest enemy">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/16213e/eee?text=Dark+Knight" alt="The Dark Knight">
+                </div>
+                <div class="movie-info">
+                    <h2 class="movie-title">The Dark Knight</h2>
+                    <p class="movie-description">When the menace known as the Joker wreaks havoc on Gotham, Batman must accept one of the greatest tests.</p>
+                    <div class="movie-rating">
+                        <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-score">9.0/10</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card 4 -->
+            <div class="movie-card" data-title="Pulp Fiction" data-description="Interconnected crime stories in LA">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/0f3460/eee?text=Pulp+Fiction" alt="Pulp Fiction">
+                </div>
+                <div class="movie-info">
+                    <h2 class="movie-title">Pulp Fiction</h2>
+                    <p class="movie-description">The lives of two mob hitmen, a boxer, and a pair of diner bandits intertwine in four tales of violence.</p>
+                    <div class="movie-rating">
+                        <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-score">8.9/10</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card 5 -->
+            <div class="movie-card" data-title="Forrest Gump" data-description="Life journey of a simple man">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/533483/eee?text=Forrest+Gump" alt="Forrest Gump">
+                </div>
+                <div class="movie-info">
+                    <h2 class="movie-title">Forrest Gump</h2>
+                    <p class="movie-description">The presidencies of Kennedy and Johnson unfold through the perspective of an Alabama man with an IQ of 75.</p>
+                    <div class="movie-rating">
+                        <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-score">8.8/10</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card 6 -->
+            <div class="movie-card" data-title="The Matrix" data-description="Reality-bending sci-fi action">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/1a1a2e/0f0?text=The+Matrix" alt="The Matrix">
+                </div>
+                <div class="movie-info">
+                    <h2 class="movie-title">The Matrix</h2>
+                    <p class="movie-description">A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war.</p>
+                    <div class="movie-rating">
+                        <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-score">8.7/10</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card 7 -->
+            <div class="movie-card" data-title="Interstellar" data-description="Space exploration to save humanity">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/16213e/eee?text=Interstellar" alt="Interstellar">
+                </div>
+                <div class="movie-info">
+                    <h2 class="movie-title">Interstellar</h2>
+                    <p class="movie-description">A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p>
+                    <div class="movie-rating">
+                        <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-score">8.6/10</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card 8 -->
+            <div class="movie-card" data-title="Parasite" data-description="Dark comedy about class divide">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/2d4059/eee?text=Parasite" alt="Parasite">
+                </div>
+                <div class="movie-info">
+                    <h2 class="movie-title">Parasite</h2>
+                    <p class="movie-description">Greed and class discrimination threaten the newly formed symbiotic relationship between two families.</p>
+                    <div class="movie-rating">
+                        <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-score">8.5/10</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Movie Card 9 -->
+            <div class="movie-card" data-title="Gladiator" data-description="Epic tale of revenge in ancient Rome">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/300x450/0f3460/eee?text=Gladiator" alt="Gladiator">
+                </div>
+                <div class="movie-info">
+                    <h2 class="movie-title">Gladiator</h2>
+                    <p class="movie-description">A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family.</p>
+                    <div class="movie-rating">
+                        <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-score">8.5/10</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Movie Feed. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
